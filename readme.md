@@ -43,7 +43,7 @@
     		* https://ya.ru
     		* заголовок
     		* описание
-    			* изображение
+		* изображение
     * Реализация
     	* <meta property="og:type" content="website" />
     	* <meta property="og:url" content="https://bgtvalex.ru" />
@@ -67,7 +67,7 @@
     	* Canonical
     		* <link rel="https://bgtvalex.ru" href="https://bgtvalex.ru">
     		* две ссылки могут ссылаться на одну и ту же страницу, это дубликаты, плохо ранжируются
-    			* для этого используют canonical ссылки в <head></head>
+		* для этого используют canonical ссылки в <head></head>
 
 ## 5. Индексация, meta robots, файл robots.txt
 
@@ -81,11 +81,11 @@
     * robots.txt
     		User-agent: yandex
     		disallow: /admin/*
-    			sitemap: https://site.ru/sitemap.xml
+		sitemap: https://site.ru/sitemap.xml
     		User-agent: googlebot
     		disallow: /contacts
     		disallow: /admin/*
-    			sitemap: https://site.ru/sitemap.xml
+		sitemap: https://site.ru/sitemap.xml
 
 ## 6. Sitemap
 
